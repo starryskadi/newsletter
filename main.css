@@ -1,0 +1,101 @@
+body {
+  font-family: "Roboto", serif;
+  font-size: 14px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Gelasio", serif;
+}
+
+.heading-3 {
+  font-size: 24px;
+}
+
+.heading-4 {
+  font-size: 20px;
+}
+
+.heading-5 {
+  font-size: 18px;
+}
+
+.bg-custom-primary {
+  background-color: #09357b;
+}
+
+.logo {
+  max-height: 50px;
+  margin: 25px 0px;
+}
+
+.search {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  border-bottom: 2px solid white;
+  padding-bottom: 3px;
+  background: #2153a3;
+  padding: 8px 30px;
+}
+
+.navbar-cus {
+  padding-bottom: 0px;
+}
+
+.search-btn {
+  background: transparent;
+  border: 0px;
+  /* width: 80px; */
+}
+
+.search-input {
+  background: transparent;
+  border: 0px;
+  color: white;
+}
+
+.search-input::placeholder {
+  color: white;
+  opacity: 0.4;
+}
+
+.search-input:focus {
+  outline: 0px;
+}
+
+.sorting {
+  display: inline;
+  margin-left: 25px;
+  width: 250px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-color: black;
+  border-radius: 0px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.article-description {
+  top: auto;
+}
+
+.card-cus {
+  border-bottom: 5px solid #388e3c;
+  height: 100%;
+}
+
+.card-cus .card-img {
+  border-radius: 0px;
+}
+
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1140px;
+  }
+}
