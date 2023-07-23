@@ -12,6 +12,10 @@ h6 {
   font-family: "Gelasio", serif;
 }
 
+.heading-2 {
+  font-size: 34px;
+}
+
 .heading-3 {
   font-size: 24px;
 }
@@ -24,8 +28,16 @@ h6 {
   font-size: 18px;
 }
 
+.caption {
+  font-size: 12px;
+}
+
 .bg-custom-primary {
   background-color: #09357b;
+}
+
+.image-caption {
+  color: #878787;
 }
 
 .logo {
@@ -88,6 +100,10 @@ h6 {
 .card-cus {
   border-bottom: 5px solid #388e3c;
   height: 100%;
+}
+
+.card-cus.card-cus-red {
+  border-bottom-color: #d32f2f;
 }
 
 .card-cus .card-img {
