@@ -115,3 +115,39 @@ h6 {
     max-width: 1140px;
   }
 }
+
+@media (max-width: 991px) {
+  .card-cus {
+    background-color: #09357b;
+  }
+
+  .card-img-overlay {
+    position: static;
+  }
+
+  .heading-3 {
+    font-size: 22px;
+  }
+
+  .heading-5 {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 767px) {
+  .heading-4 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 575px) {
+  .sorting {
+    margin-left: 0px;
+    display: block;
+  }
+
+  .logo {
+    max-height: 40px;
+    margin: 10px 0px;
+  }
+}
